@@ -1,0 +1,40 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background: rgb(193, 223, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main
+{
+    position: relative;
+    width:100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: #ffff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 85px rgba(0,0,0,0.5);
+}
+
+.leftside{
+    background: rgb(22, 42, 58);
+    position: relative;
+    padding: 40px;
+}
+
+.rightside{
+    background: rgba(242, 243, 247, 0.986);
+    position: relative;
+    padding: 40px;
+}
